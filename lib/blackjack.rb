@@ -40,6 +40,9 @@ end
 #     hit?(card_total)
 #   end
 # end
+def invalid_command
+   puts "Please enter a valid command"
+end
 
 def hit?(card_total)
   prompt_user
@@ -60,8 +63,6 @@ end
 
 def invalid_command
    puts "Please enter a valid command"
-   prompt_user
-   get_user_input
 end
 # binding.pry
 
