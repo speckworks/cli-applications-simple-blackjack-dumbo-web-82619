@@ -35,8 +35,9 @@ def hit?
   elsif gets.chomp == 'h' 
     deal_card
     display_card_total
-  else
-    
+  else puts "Please enter a valid command"
+  end
+  display_card_total  
 end
 
 def invalid_command
