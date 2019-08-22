@@ -37,16 +37,14 @@ def hit?(get_user_input)
   elsif get_user_input ==h; 
     deal_card
     display_card_total
-  else puts "Please enter a valid command"
-    prompt_user
-    get_user_input
+  else invalid_command
   end
   display_card_total
 end
 binding.pry
 
 def invalid_command
-  # code invalid_command here
+   puts "Please enter a valid command"
 end
 
 #####################################################
