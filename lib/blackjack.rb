@@ -31,9 +31,9 @@ end
 def hit?(get_user_input)
  prompt_user
  get_user_input
-  if gets.chomp == s;
+  if get_user_input == s;
     display_card_total
-  elsif gets.chomp ==h; 
+  elsif get_user_input ==h; 
     deal_card
   else puts "Please enter a valid command"
     get_user_input
