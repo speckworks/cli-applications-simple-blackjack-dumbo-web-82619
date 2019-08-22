@@ -75,10 +75,10 @@ def runner
   initial_round
   hit?(card_total)
     if input == s;
-    hit?(card_total)
+    hit?
     display_card_total
   if card_total>21;
-  end_game(card_total)
+  end_game
   end
  end   
  end
