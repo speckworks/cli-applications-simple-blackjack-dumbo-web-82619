@@ -30,7 +30,8 @@ end
 
 def hit?
   puts "Type 'h' to hit or 's' to stay"
-  if gets.chomp == 's'
+  if gets.chomp == 's' display_card_total
+  elsif gets.chomp == 'h' 
 end
 
 def invalid_command
