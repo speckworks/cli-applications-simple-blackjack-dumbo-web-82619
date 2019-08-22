@@ -41,7 +41,7 @@ def hit?(get_user_input)
   end
   display_card_total
 end
-binding.pry
+# binding.pry
 
 def invalid_command
    puts "Please enter a valid command"
