@@ -78,6 +78,7 @@ def runner
     hit?
     deal_card
     display_card_total
-  
+  if card_total>21
+    puts "Game Over. Card total #{card_total}"
 end
     
