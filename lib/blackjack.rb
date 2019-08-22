@@ -29,7 +29,8 @@ def initial_round
 end
 
 def hit?
-  puts "Type 'h' to hit or 's' to stay"
+ prompt_user
+ get_user_input
   if gets.chomp == 's' display_card_total
   elsif gets.chomp == 'h' 
 end
