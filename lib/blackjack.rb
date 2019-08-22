@@ -72,14 +72,22 @@ end
 
 def runner
   welcome
-  initial_round
-  hit? (card_total)
-    if input == s;
-    hit?(card_total)
+  card_total = initial_round
+  until card_total > 21
+  card_total = hit?(card_total)
     display_card_total(card_total)
-  if card_total>21;
-  end_game
   end
- end   
- end
+  end_game(card_total)
+  end
+
+ 
+# def runner
+#   welcome
+#   card_total = initial_round
+#   until card_total > 21
+#   card_total = hit?(card_total)
+#   display_card_total(card_total)
+#   end
+#   end_game(card_total)
+# end
 # binding.pry
