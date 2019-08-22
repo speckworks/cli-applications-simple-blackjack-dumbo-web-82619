@@ -71,6 +71,8 @@ end
 #####################################################
 
 def runner
-  
+  prompt_user
+  initial_round
+  hit?
 end
     
