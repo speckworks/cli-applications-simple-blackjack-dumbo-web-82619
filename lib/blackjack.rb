@@ -71,7 +71,7 @@ end
 #####################################################
 
 def runner
-  prompt_user
+  welcome
   initial_round
   hit?(card_total)
     input == s;
@@ -79,6 +79,6 @@ def runner
     deal_card
     display_card_total
   if card_total>21
-    puts "Game Over. Card total #{card_total}"
+  end_game
   end
  end   
