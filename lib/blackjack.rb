@@ -80,5 +80,5 @@ def runner
     display_card_total
   if card_total>21
     puts "Game Over. Card total #{card_total}"
-end
-    
+  end
+ end   
