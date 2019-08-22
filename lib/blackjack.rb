@@ -73,6 +73,11 @@ end
 def runner
   prompt_user
   initial_round
-  hit?
+  hit?(card_total)
+    input == s;
+    hit?
+    deal_card
+    display_card_total
+  
 end
     
