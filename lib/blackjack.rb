@@ -48,6 +48,7 @@ def invalid_command
    prompt_user
    get_user_input
 end
+binding.pry
 
 #####################################################
 # get every test to pass before coding runner below #
