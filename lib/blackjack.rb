@@ -74,9 +74,8 @@ def runner
   welcome
   initial_round
   hit?(card_total)
-    input == s;
+    if input == s;
     hit?
-    deal_card
     display_card_total
   if card_total>21
   end_game
