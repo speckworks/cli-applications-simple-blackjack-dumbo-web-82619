@@ -30,7 +30,7 @@ end
 
 def hit?
   puts "Type 'h' to hit or 's' to stay"
-  if 
+  if gets.chomp == 's'
 end
 
 def invalid_command
