@@ -28,7 +28,7 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit?(get_user_input)
  prompt_user
  get_user_input
   if gets.chomp == 's';
