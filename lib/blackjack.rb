@@ -34,10 +34,9 @@ def hit?
   if gets.chomp == 's' display_card_total
   elsif gets.chomp == 'h' 
     deal_card
-    display_card_total
   else puts "Please enter a valid command"
   end
-  display_card_total  
+  display_card_total
 end
 
 def invalid_command
