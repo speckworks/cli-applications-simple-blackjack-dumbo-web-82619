@@ -82,4 +82,4 @@ def runner
   end
  end   
  end
-binding.pry
+# binding.pry
